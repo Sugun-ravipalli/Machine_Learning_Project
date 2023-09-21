@@ -29,9 +29,13 @@ Feature selection involves identifying the most relevant features from the datas
 # Understanding Data Nature:
 1.Used combination of Supervised and Unsupervised Models:
 In my project, I encountered a dataset that presented a challenge due to the low correlation between independent and response variables. To overcome this, I used a combination of supervised and unsupervised machine learning models to extract useful insights from the data.
+
 I employed four different supervised models, namely logistic regression, decision tree, random forest, and support vector machine (SVM), to predict the outcome variable based on the independent variables. These models allowed me to detect patterns and relationships in the dataset, and to make accurate predictions based on labeled data.
+
 However, a challenge I encountered was the presence of three highly correlated independent variables, which could have led to multicollinearity issues in the supervised models. To address this, I used Principal Component Analysis (PCA), an unsupervised machine learning technique, to reduce the dimensionality of the data and identify the underlying factors that explain the variance among these variables. This approach helped me to create a new set of independent variables that are linearly uncorrelated, allowing me to avoid the problem of multicollinearity and improve the performance of my supervised models.
+
 In summary, by using a combination of supervised and unsupervised machine learning techniques, I was able to gain a better understanding of the complex relationships within the dataset, and to make more accurate predictions and informed decisions. My approach allowed me to overcome the challenge of low correlation and multicollinearity in the data, which is often encountered in real-world problems. I believe that my findings will be useful for future research in this field and can be used to inform decision-making in similar contexts.
+
 2. Balancing Data:
 In my project, I encountered an unbalanced dataset, which can lead to biased predictions and reduced model performance. To address this issue, I used two common techniques: oversampling and undersampling.
 
