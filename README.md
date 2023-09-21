@@ -75,21 +75,23 @@ Below is the Classification Diagram of the above Decision Tree Prediction.
 ![image](https://github.com/Sugun-ravipalli/Machine_Learning_Project/assets/145236879/c172616b-68c1-411d-8e4f-926e42751633)
 
 5.	Random forests:
+   
 Below are the results of Random Forest technique performed over normal training data.
- ![image](https://github.com/Sugun-ravipalli/Machine_Learning_Project/assets/145236879/174e2a0a-cc28-473e-a0fd-c1f072db24ec)
+![image](https://github.com/Sugun-ravipalli/Machine_Learning_Project/assets/145236879/174e2a0a-cc28-473e-a0fd-c1f072db24ec)
 
 Results of Random Forest technique performed over normal training data. 
 ![image](https://github.com/Sugun-ravipalli/Machine_Learning_Project/assets/145236879/596e745b-7e0f-4590-a662-20254a180568)
+
 Results of Random Forest technique performed over Test data of Oversampled data.
- ![image](https://github.com/Sugun-ravipalli/Machine_Learning_Project/assets/145236879/883428c1-b128-467c-9ce8-0abfea3404c8)
+![image](https://github.com/Sugun-ravipalli/Machine_Learning_Project/assets/145236879/883428c1-b128-467c-9ce8-0abfea3404c8)
 
 Results of Random Forest technique performed over Test data of Undersampled data
- ![image](https://github.com/Sugun-ravipalli/Machine_Learning_Project/assets/145236879/d533c19e-23eb-45b9-8b08-0c22e1bdc6da)
+![image](https://github.com/Sugun-ravipalli/Machine_Learning_Project/assets/145236879/d533c19e-23eb-45b9-8b08-0c22e1bdc6da)
 
 4.	SVM:
    
 The following are the prediction results using Support Vector Machine technique. Of the all kernels - linear, polynomial, Sigmoid and radial, the radial kernel was better at predicting the risk of heart disease. But through SVM, I was not able to predict whether the people really had a risk of coronary heart disease or not.
- ![image](https://github.com/Sugun-ravipalli/Machine_Learning_Project/assets/145236879/c59fe5c3-b1ff-4bab-afd3-a85907a8a8dc)
+![image](https://github.com/Sugun-ravipalli/Machine_Learning_Project/assets/145236879/c59fe5c3-b1ff-4bab-afd3-a85907a8a8dc)
 
 # Results and Analysis:
 The sensitivity of Random Forest is 0.5928 which is best among the rest of the models taking recall and precision into consideration. The Random Forest model was improved after involving the feature selection and balancing techniques. So, I took under sampled data for random forest model as best Model.
