@@ -8,10 +8,7 @@ The research question is to identify key health factors strongly associated with
 What are the key health factors strongly associated with coronary heart disease (CHD), and which classification model provides the most accurate prediction of the 10-year risk of future CHD? The goal of this project is to assist the healthcare system in identifying patients at risk for CHD, enabling early intervention or prevention methods.
 
 # Data source and description: 
-I have taken our data source from Kaggle (https://www.kaggle.com/datasets/dileep070/heart
--disease-prediction-using-logistic-regression?resource=download). The dataset covers history.
-of 4000 residents in Framingham, Massachusetts. The below tables divide 15 variables of the
-dataset into 4 categories.
+I have taken our data source from Kaggle (https://www.kaggle.com/datasets/dileep070/heart-disease-prediction-using-logistic-regression?resource=download). The dataset covers history of 4000 residents in Framingham, Massachusetts. The below tables divide 15 variables of the dataset into 4 categories.
 
 # Models used:
 1.	Logistic regression 
