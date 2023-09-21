@@ -1,4 +1,5 @@
 # Machine_Learning_Project
+# Predicting a 10-year risk of future coronary heart disease (CHD)
 
 # Introduction:
 Coronary heart disease (CHD) is an inescapable nemesis for those who live with bad lifestyle, but recent research suggests that CHD may follow certain patterns. This study aims to predict the 10-year risk of future CHD using an ongoing cardiovascular study of residents in Framingham, Massachusetts. The dataset, which includes over 4,000 records and 15 attributes, is publicly available on Kaggle.
