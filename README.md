@@ -28,6 +28,7 @@ Feature selection involves identifying the most relevant features from the datas
 
 # Understanding Data Nature:
 1.Used combination of Supervised and Unsupervised Models:
+
 In my project, I encountered a dataset that presented a challenge due to the low correlation between independent and response variables. To overcome this, I used a combination of supervised and unsupervised machine learning models to extract useful insights from the data.
 
 I employed four different supervised models, namely logistic regression, decision tree, random forest, and support vector machine (SVM), to predict the outcome variable based on the independent variables. These models allowed me to detect patterns and relationships in the dataset, and to make accurate predictions based on labeled data.
@@ -37,6 +38,7 @@ However, a challenge I encountered was the presence of three highly correlated i
 In summary, by using a combination of supervised and unsupervised machine learning techniques, I was able to gain a better understanding of the complex relationships within the dataset, and to make more accurate predictions and informed decisions. My approach allowed me to overcome the challenge of low correlation and multicollinearity in the data, which is often encountered in real-world problems. I believe that my findings will be useful for future research in this field and can be used to inform decision-making in similar contexts.
 
 2. Balancing Data:
+   
 In my project, I encountered an unbalanced dataset, which can lead to biased predictions and reduced model performance. To address this issue, I used two common techniques: oversampling and undersampling.
 
 Oversampling involves increasing the number of instances in the minority class, while undersampling involves reducing the number of instances in the majority class. By using both techniques, I was able to balance the dataset and ensure that the model is trained on an equal number of instances for each class, thus avoiding bias towards the majority class.
@@ -44,6 +46,7 @@ Oversampling involves increasing the number of instances in the minority class, 
 After balancing the dataset, I applied the supervised models, namely logistic regression, decision tree, random forest, and support vector machine (SVM), to the dataset. By using the balanced dataset, I ensured that the models were trained on a representative sample of instances for each class, which improved the accuracy of the predictions and the overall performance of the models.
 
 My approach allowed me to overcome the challenge of dealing with unbalanced datasets, which is often encountered in real-world problems. By employing over-sampling and under sampling techniques, I was able to ensure that the models could learn from all the available data while avoiding bias towards the majority class.
+
 # Data Preprocessing:
 1. Data Cleaning:
 
@@ -56,9 +59,8 @@ In my project, I analyzed the nature of the independent variables and their rela
 By understanding the nature of the independent variables, I was able to gain insights into the underlying patterns and relationships within the dataset. The normal distribution of the independent variables in relation to the response variable suggests a non-linear relationship between the variables, which is useful information for modeling and prediction purposes.
 By visualizing this relationship through graphs, I was able to better understand the underlying patterns and relationships within the data, and to make more accurate predictions and informed decisions.
 
-
-
 # Model Building:
+
 1.	PCA
 The correlation matrix analysis revealed that there is a possibility of reducing the dimensionality of the dataset. To achieve this, I employed the principal component analysis (PCA) technique to extract important features from the dataset. By using PCA, I was able to identify the underlying patterns and correlations within the dataset, and to reduce the number of variables while retaining the important information. PCA can be used to extract the major important predictor for the response out of the existing predictors. This can be used if there is a low correlation between response and independent predictors and the general analysis is unable to capture the general structure of the data to predict the response in Supervised learning.
 Logistic Regression:
@@ -85,12 +87,14 @@ Results of Random Forest technique performed over Test data of Undersampled data
  ![image](https://github.com/Sugun-ravipalli/Machine_Learning_Project/assets/145236879/d533c19e-23eb-45b9-8b08-0c22e1bdc6da)
 
 4.	SVM:
+   
 The following are the prediction results using Support Vector Machine technique. Of the all kernels - linear, polynomial, Sigmoid and radial, the radial kernel was better at predicting the risk of heart disease. But through SVM, I was not able to predict whether the people really had a risk of coronary heart disease or not.
  ![image](https://github.com/Sugun-ravipalli/Machine_Learning_Project/assets/145236879/c59fe5c3-b1ff-4bab-afd3-a85907a8a8dc)
-Results and Analysis:
+
+# Results and Analysis:
 The sensitivity of Random Forest is 0.5928 which is best among the rest of the models taking recall and precision into consideration. The Random Forest model was improved after involving the feature selection and balancing techniques. So, I took under sampled data for random forest model as best Model.
 
-Conclusion:
+# Conclusion:
 Coronary heart disease is a serious health concern that affects a significant portion of the population, but recent research has identified patterns and risk factors that can help to predict future risk.
 Using machine learning algorithms and techniques such as dimensional reduction and under sampling, this study was able to identify key health factors strongly associated with CHD and develop an accurate classification model to predict 10-year risk.
 
